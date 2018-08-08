@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app= "myApp">
+<head>
+	<title>Angular Basics</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+<body>
+	<div class="container">
+		<!--nav div starts here-->
+		<div class="navigation">
+			<nav>
+				<ul>
+					<li>
+						<a ui-sref="home">Home</a>
+					</li>
+					<li>
+						<a ui-sref="contact">Contact</a>
+					</li>
+					<li>
+						<a ui-sref="email">Email</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<!--nav div ends here-->
+
+		<div class="left-nav">
+			<div>
+				<a ui-sref="home">Home</a>
+			</div>
+			<div>
+				<a ui-sref="contact">Contact</a>
+			</div>
+			<div>
+				<a ui-sref="email">Email</a>
+			</div>
+		</div>
+
+		<!--view div starts here-->
+		<div class="section-view">
+			<ui-view></ui-view>	
+		</div>
+		<!--view div ends here-->
+	</div>
+	<script type="text/javascript" src="js/angular.js"></script>
+	<script type="text/javascript" src="js/angular-ui-router.js"></script>
+	<script type="text/javascript" src="js/first.js"></script>
+</body>
+</html>

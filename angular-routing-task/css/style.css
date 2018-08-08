@@ -1,0 +1,39 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+nav{
+	background-color: cyan;
+	height: 40px;
+	padding: 20px;
+}
+ul {
+	list-style-type: none;
+}
+ul li{
+	display: inline;
+	margin: 20px;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	border: 2px solid black;
+	padding: 10px;
+	border-radius: 10px;
+}
+.left-nav{
+	width: 25%;
+	float: left;
+}
+.left-nav div a{
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid cyan;
+	padding: 10px;
+	border-radius: 10px;
+}
+.left-nav div{
+	padding: 30px;
+	background-color: #a19c9c;
+	border-bottom: 1px solid cyan;
+}
